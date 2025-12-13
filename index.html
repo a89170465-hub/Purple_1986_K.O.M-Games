@@ -1,81 +1,156 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archiv Purple 1992 - K.O.M-Games</title>
-    <style>
-        body {
-            font-family: monospace, sans-serif;
-            background-color: #111;
-            color: #00ff00; /* Klassischer Monitor-Text */
-            margin: 50px;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            border: 1px dashed #00ff00;
-            padding: 20px;
-        }
-        h1, h2 {
-            text-align: center;
-            color: #00cc00;
-            border-bottom: 1px solid #005500;
-            padding-bottom: 10px;
-        }
-        .download-btn {
-            display: block;
-            width: 80%;
-            margin: 30px auto;
-            padding: 15px;
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            text-decoration: none;
-            font-size: 1.2em;
-            border: 2px solid #00ff00;
-            transition: background-color 0.3s;
-        }
-        .download-btn:hover {
-            background-color: #00ff00;
-            color: #111;
-            cursor: pointer;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <title>Purple (1992) – Documentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Times New Roman, sans-serif;
+      background: #000000;
+      color: #111;
+      margin: 0;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: #000000;
+      color: #ffffff;
+      padding: 32px 40px 48px;
+      box-shadow: 0 0 0 1px #ddd;
+    }
+    header {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 0 0 4px 0;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 22px;
+      margin-top: 36px;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 6px;
+    }
+    .meta {
+      color: #555555;
+      font-size: 14px;
+    }
+    p {
+      margin: 14px 0;
+    }
+    .game-symbols {
+      background: #000000;
+      color: #ffffff;
+      border: 1px solid #e0e0e0;
+      padding: 16px;
+      font-family: monospace;
+      margin: 16px 0;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #ddd;
+      text-align: center;
+    }
+    .download {
+      display: inline-block;
+      padding: 12px 22px;
+      background: #AA00AA;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    .download:hover {
+      background-color: #FC00FC;
+    }
+    .note {
+      font-size: 13px;
+      color: #555555;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>[ ARCHIV-PROTOKOLL: ZUGRIFF ERLAUBT ]</h1>
-        <p style="text-align: center; color: #ff0000;">** DATENLECK: K.O.M-GAMES / PROJEKT PURPLE 1992 **</p>
-        
-        <div class="section">
-            <h2>ENTDECKUNGSPROTOKOLL</h2>
-            <p>Am 12.12.2025 wurde in einem alten Server-Dump ein komprimiertes Datenpaket ohne Metadaten identifiziert. Nach der Wiederherstellung der Integrität des Pakets stellte sich heraus, dass es sich um ein unvollendetes Spiel von K.O.M-Games aus dem Jahr 1992 handelte, das nie offiziell veröffentlicht wurde.</p>
-            <p>Der Build mit dem Titel **"Purple 1992"** zeigt eine rudimentäre, aber beunruhigende Engine. Die Dokumentation ist lückenhaft, was die Intention des Spiels oder die Gründe für die Einstellung des Projekts betrifft. Dieses Archiv ist der einzige bekannte Speicherort für diese Daten.</p>
-        </div>
+  <div class="container">
+    <header>
+      <h1>Purple (1992)</h1>
+      <div class="meta">K.O.M-Games · Archived Documentation</div>
+    </header>
 
-        <div class="section">
-            <h2>DOKUMENTATION</h2>
-            <p>Die gefundenen Dateien deuten darauf hin, dass 'Purple 1992' ein frühes Experiment im Bereich der atmosphärischen Horror-Spiele war. Die Struktur des Codes ist inkonsistent, was auf einen abrupten Abbruch der Entwicklung hindeutet. Wir stellen den gefundenen und rekonstruierten Build im Originalformat zur Verfügung, um die Integrität der Entdeckung zu gewährleisten.</p>
-        </div>
+    <section>
+      <p>
+        <strong>Purple</strong> is a rudimentary, text‑based mini‑game distributed in 1992 as a
+        free promotional floppy disk by <strong>K.O.M‑Games</strong>. The project served as an early demo
+        and proof‑of‑concept for a planned full‑scale arcade title of the same name.
+      </p>
+      <p>
+        The demo features a minimal rule set: the player, represented by a purple <strong>♣</strong> symbol,
+        must collect keys and reach an exit door while avoiding fast‑moving enemies.
+      </p>
+    </section>
 
-        <div class="section">
-            <h2>DOWNLOAD-DATENPAKET</h2>
-            <p style="text-align: center; font-size: 0.9em; color: #aaaaaa;">(Warnung: Das Paket wurde rekonstruiert und ist nicht für moderne Systeme optimiert.)</p>
-            
-            <a href="Purple_1992-Rebuild.zip" download class="download-btn">
-                [ START DOWNLOAD: Purple_1992-Rebuild.zip ]
-            </a>
-            
-            <p style="text-align: center;">Datei-ID: a89170465-hub | Größe: 14.8 MB</p>
-        </div>
-        
-        <p style="text-align: center; font-size: 0.8em;">&gt; Ende des Protokolls. Archivierung abgeschlossen. &lt;</p>
-    </div>
+    <section>
+      <h2>Gameplay Overview</h2>
+      <div class="game-symbols">
+        Player: ♣ (purple)<br />
+        Keys: ♀ (yellow)<br />
+        Exit Door: █ (gray)<br />
+        Enemies: ◄ ► ▲ ▼ (blue)
+      </div>
+      <p>
+        ANSI color codes were used to enhance the visual presentation — an uncommon and experimental
+        technique at the time — reinforcing the game’s distinctive “Purple” identity.
+      </p>
+    </section>
+
+    <section>
+      <h2>Background and Controversy</h2>
+      <p>
+		The mini-game was distributed during the planned opening of a new arcade venue. The floppy disks
+		were limited to approximately 300 copies and were intended to generate interest in the upcoming
+		arcade release Purple.
+      </p>
+      <p>
+		Only a few days after distribution — and prior to the arcade game’s official release — the venue was forced
+		to close. This followed a series of user complaints claiming that the floppy disk contained computer viruses.
+      </p>
+      <p>
+		The exact nature of these reports was never conclusively determined. It remains unclear whether the issues
+		were caused by actual malware, false positives triggered by unusual file structures, or incompatibilities with
+		early virus detection software.
+      </p>
+      <p>
+		Regardless of the cause, the incident marked the abrupt end of K.O.M-Games’ first public release attempt.
+      </p>
+    </section>
+
+    <section>
+      <h2>Technical Legacy</h2>
+      <p>
+        Despite its failure, <em>Purple (1992)</em> formed the technical foundation for later internal
+        K.O.M‑Games projects. Subsequent builds are known to have reused significant portions of its
+        codebase, including early save and load system logic.
+      </p>
+      <p>
+        As a result, “Purple” (1992) is considered a rare and historically significant artifact within the early
+		development history of K.O.M-Games.
+      </p>
+    </section>
+
+    <footer>
+      <a class="download" href="Purple_1992-Rebuild.zip" download>
+        Download: Purple_1992‑Rebuild.zip
+      </a>
+      <div class="note">
+        Provided for archival and historical purposes.
+      </div>
+    </footer>
+  </div>
 </body>
-
 </html>
