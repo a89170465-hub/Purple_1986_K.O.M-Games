@@ -1,6 +1,6 @@
-Purple (1992)
+Purple (1986)
 K.O.M-Games · Archived Documentation
-Purple is a rudimentary, text‑based mini‑game distributed in 1992 as a free promotional floppy disk by K.O.M‑Games. The project served as an early demo and proof‑of‑concept for a planned full‑scale arcade title of the same name.
+Purple is a rudimentary, text‑based mini‑game distributed in 1986 as a free promotional floppy disk by K.O.M‑Games. The project served as an early demo and proof‑of‑concept for a planned full‑scale arcade title of the same name.
 
 The demo features a minimal rule set: the player, represented by a purple ♣ symbol, must collect keys and reach an exit door while avoiding fast‑moving enemies.
 
@@ -21,6 +21,6 @@ The exact nature of these reports was never conclusively determined. It remains 
 Regardless of the cause, the incident marked the abrupt end of K.O.M-Games’ first public release attempt.
 
 Technical Legacy
-Despite its failure, Purple (1992) formed the technical foundation for later internal K.O.M‑Games projects. Subsequent builds are known to have reused significant portions of its codebase, including early save and load system logic.
+Despite its failure, Purple (1986) formed the technical foundation for later internal K.O.M‑Games projects. Subsequent builds are known to have reused significant portions of its codebase, including early save and load system logic.
 
-As a result, “Purple” (1992) is considered a rare and historically significant artifact within the early development history of K.O.M-Games.
+As a result, “Purple” (1986) is considered a rare and historically significant artifact within the early development history of K.O.M-Games.
